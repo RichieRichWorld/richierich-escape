@@ -1,17 +1,10 @@
 body {
   margin: 0;
-  background-color: #111;
-  color: #fff;
-  font-family: Arial, sans-serif;
+  background: #111;
 }
-#gameCanvas {
+canvas {
   display: block;
-  margin: auto;
+  margin: 0 auto;
   background: url('assets/city-bg.png') no-repeat center center;
   background-size: cover;
-}
-#splash {
-  display: block;
-  margin: 50px auto;
-  width: 300px;
 }
